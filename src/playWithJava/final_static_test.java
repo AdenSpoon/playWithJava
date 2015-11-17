@@ -68,7 +68,7 @@ public class final_static_test {
 		System.out.println(test.four);
 		
 		//conlusion: in Java, everything is passed by value. We cannot change the value via passing into 
-		//some funtion parameter.
+		//some funtion parameter. We can only do this by passing an object and changing its inner state using its copy.
 		
 
 	}
